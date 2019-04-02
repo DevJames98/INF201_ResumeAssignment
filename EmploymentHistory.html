@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Devon James - Employment History</title>
+    <script type="text/javascript" src="compute.js"></script>       <!--Link to External JavaScript-->
+    <style type="text/css">
+
+      body{background-color:#edc7b7;}
+      .title{
+        background-color:#123c69; margin: 0 auto; padding:10px; width:95%; color:white; text-align:center;
+      }
+      #contain{
+        border:1px solid black;width:95%;margin: 0 auto;padding:10px;height:1060px;background-color:white;
+      }
+      .navbar{
+        float:left; width:10%; height: 1000px; padding:20px; border:1px solid black; background-color:#eee2dc; margin:10px; text-align:center;
+      }
+      .mid{
+        width:38%; height: 1000px; margin:10px; border:1px solid black; float:left; padding:20px; background-color: #bab2b5; text-align:center;
+      }
+      .right{
+        border:1px solid black; width:38%; float:left; margin:10px; height:1000px; padding:20px; background-color:#eee2dc; text-align:center;
+      }
+      .footer{
+        float:left; border:1px solid black; margin:20px; padding:10px; width:95%; background-color: #ac3661; text-align:center; color: white;
+      }
+
+      a:link{
+        color: blue;
+      }
+      a:visited{
+        color:purple;
+      }
+      a:hover{
+        color: red;
+      }
+      a:active{
+        color: orange;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!--Title-->
+    <div class="title">
+      <h1>Devon James - Employment History</h1>
+    </div>
+    <br>
+    <!--Container Div-->
+    <div id="contain">
+
+    <!--Navigational Bar-->
+    <div class="navbar">
+        <p>Page Links:
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/HomePage.html">About Me</a>
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/EmploymentHistory.html">Employment History</a>
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/Education.html">Education</a>
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/Skills.html">Skills</a>
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/OtherInfo.html">Other Info</a>
+          <!--New Link-->
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/SalaryCalculator.html">Salary Calculator</a>
+        </p>
+    </div>
+
+    <!--Div2-->
+    <div class="mid">
+      <h3><u>Hunter College, CUNY</u></h3>
+      <p>
+        Location: Manhattan, New York   <br>
+        Occupation: College Assistant   <br>
+        Duration: Feb. 2017 - Aug 2017    <br><br>
+      </p>
+        <!--
+        Tasks:                          <br>
+        <ul>
+          <li>Assisted in the creation of a new Hunter School of Education website using Google Sites.</li>
+          <li>In charge of managing and distributing necessary resources and copies to members of faculty of the Special Education Department.</li>
+          <li>Used Excel software to create and keep track of inventory within the office.</li>
+        </ul>
+      </p>  -->
+
+      <p>
+        <button type="button" onclick="DisplayHunter()">Click Me!</button> to see my top
+        <input type="text" id="numHunter"/> tasks while working at Hunter College (Max. 5).
+
+      </p>
+
+      <p id="changeHunter">
+
+      </p> <br><br><br>
+
+      <h3><u>Community Worship Center Church of the Nazarene</u></h3>
+      <p>
+        Location: Brooklyn, New York          <br>
+        Occupation: Volunteer                 <br>
+        Duration: Summer 2016 & Summer 2017   <br><br>
+      </p>
+        <!--
+        Tasks:                                <br>
+        <ul>
+          <li>Acted as one of the building security members to ensure safety of the children.</li>
+          <li>Helped to serve food and ensure the cleanliness of the area.</li>
+          <li>Was in charge of taking photographs of the children during activities to showcase for parents.</li>
+        </ul>
+
+        -->
+      <p>
+        <button type="button" onclick="DisplayCWC()">Click Me!</button> to see my top
+        <input type="text" id="numCWC"/> tasks while volunteering at CWC (Max. 5).
+
+      </p>
+
+      <p id="changeCWC">
+
+      </p>
+
+    </div>
+
+    <!--Div3-->
+    <div class="right">
+      <h3><u>IBM</u></h3>
+      <p>
+        Location: New York, New York     <br>
+        Occupation: Marketing Intern     <br>
+        Duration: Summer 2015            <br><br>
+      </p>
+
+        <!--
+        Tasks:                           <br>
+        <ul>
+          <li>Assisted in the creation of a stylesheet that was used in one of their projects.</li>
+          <li>Worked in a team based environment to help create a design for a new game.</li>
+          <li>Expanded my knowledge of coding in HTML/CSS, JavaScript and AngularJS.</li>
+        </ul>
+
+        -->
+
+      <p>
+        <button type="button" onclick="DisplayIBM()">Click Me!</button> to see my top
+        <input type="text" id="numIBM"/> tasks while working at IBM (Max. 5).
+
+      </p>
+
+      <p id="changeIBM">
+
+      </p>
+    </div>
+
+    </div>
+
+
+    <!--Footer-->
+    <div class="footer">
+      <h3>Contact Information</h3>
+      <p>
+        Feel free to e-mail me at <a href="mailto:dajames@albany.edu" target="_top"><b>dajames@albany.edu</b></a> or at <a href="mailto:devjames98@gmail.com" target="_top"><b>devjames98@gmail.com</b></a>.  <br>
+        Also feel free to give me a call or text at <b>(347) 923-2937</b>.
+      </p>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Assignment #6-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Salary Calculator</title>
+    <link rel="stylesheet" type="text/css" href="resumestyle.css">
+    <script type="text/javascript" src="compute.js"></script>       <!--Link to External JavaScript-->
+  </head>
+
+  <body>
+    <!--Title-->
+    <div class="title">
+      <h1>Devon James - Salary Calculator</h1>
+    </div>
+    <br>
+    <!--Container Div-->
+    <div id="contain">
+
+    <!--Navigational Bar-->
+    <div class="navbar">
+        <p>Page Links:
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/HomePage.html">About Me</a>
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/EmploymentHistory.html">Employment History</a>
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/Education.html">Education</a>
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/Skills.html">Skills</a>
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/OtherInfo.html">Other Info</a>
+          <!--New Link-->
+          <br><br><a href="https://www.albany.edu/~dj965117/ResumeAssignment6/SalaryCalculator.html">Salary Calculator</a>
+        </p>
+    </div>
+
+    <!--Div2-->
+    <div class="mid">
+      <h3><u>Salary Calculator</u></h3>
+      <p>
+        Enter the hourly rate: $
+        <input type="text" id="rate"/>
+        <br>
+
+        Enter the hours worked per week:
+        <input type="text" id="hours"/>
+        <br>
+      </p>
+        <button type="button" onclick="SalaryCalculator(); ValidLikeSalad()" style="cursor:pointer;cursor:hand">Calculate Salary</button>
+      <p>
+        Your salary is:
+      </p>
+      <p id="change">
+
+      </p>
+      <p id="eval">
+
+      </p>
+
+    </div>
+
+    <!--Div3-->
+    <div class="right">
+      <h3><u>Page Updates Coming in the Near Future!</u></h3>
+
+      <form action=" http://cgi.albany.edu/~dj965117/FormMailDev.cgi" method="post">
+        <p>Enter your name: </p>
+        <input type="text" name="name" value="response"/> <br>
+
+        <p>What is your current occupation? </p>
+        <input type="text" name="job" value="response"/> <br>
+
+        <p>On a scale of 1-5, rate your job. </p>
+        <input type="radio" name="rate" value="joblove"/> 1 <br>
+        <input type="radio" name="rate" value="joblove"/> 2 <br>
+        <input type="radio" name="rate" value="joblove"/> 3 <br>
+        <input type="radio" name="rate" value="joblove"/> 4 <br>
+        <input type="radio" name="rate" value="joblove"/> 5 <br>
+
+        <p>Check off some things that relate to your current job: </p>
+        <input type="checkbox" name="facts" value="jobfacts"/> You have to get up early in the morning. <br>
+        <input type="checkbox" name="facts" value="jobfacts"/> Sometimes, you're not motivated to go to work. <br>
+        <input type="checkbox" name="facts" value="jobfacts"/> You have to spend lots of time away from your family. <br>
+        <input type="checkbox" name="facts" value="jobfacts"/> You feel like you're not getting paid enough. <br>
+        <input type="checkbox" name="facts" value="jobfacts"/> You enjoy going to work everyday. <br>
+
+        <p>If money didn't exist, would you still work at your current job? </p>
+        <input type="radio" name="name" value="response"/> Yes <br>
+        <input type="radio" name="name" value="response"/> No <br>
+
+        <p>If your answer is no, then maybe you should reconsider your current job. Do what you love!</p>
+        <br>
+
+        <input type="hidden" name="recipient" value = "dj965117@albany.edu"/>
+        <input type="submit" name="submit" value="submit"/>
+
+
+      </form>
+
+    </div>
+
+    </div>
+
+
+    <!--Footer-->
+    <div class="footer">
+      <h3>Contact Information</h3>
+      <p>
+        Feel free to e-mail me at <a href="mailto:dajames@albany.edu" target="_top"><b>dajames@albany.edu</b></a> or at <a href="mailto:devjames98@gmail.com" target="_top"><b>devjames98@gmail.com</b></a>.  <br>
+        Also feel free to give me a call or text at <b>(347) 923-2937</b>.
+      </p>
+    </div>
+
+  </body>
+</html>
